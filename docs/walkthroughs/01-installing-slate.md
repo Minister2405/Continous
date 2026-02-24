@@ -12,7 +12,7 @@ You'll also need to be sure to install Slate's peer dependencies:
 yarn add react react-dom
 ```
 
-_Note, if you'd rather use a pre-bundled version of Slate, you can `yarn add slate` and retrieve the bundled `dist/slate.js` file! Check out the_ [_Using the Bundled Source_](xx-using-the-bundled-source.md) _guide for more information._
+*Note, if you'd rather use a pre-bundled version of Slate, you can&#x20;*`yarn add slate`*&#x20;and retrieve the bundled&#x20;*`dist/slate.js`*&#x20;file! Check out the* [**Using the Bundled Source**](xx-using-the-bundled-source.md) *guide for more information.*
 
 Once you've installed Slate, you'll need to import it.
 
@@ -47,7 +47,9 @@ const App = () => {
 
 Of course we haven't rendered anything, so you won't see any changes.
 
-> If you are using TypeScript, you will also need to extend the `Editor` with `ReactEditor` as per the documentation on [TypeScript](../concepts/12-typescript.md). The example below also includes the custom types required for the rest of this example.
+:::BlockQuote
+If you are using TypeScript, you will also need to extend the `Editor` with `ReactEditor` as per the documentation on [**TypeScript**](../concepts/12-typescript.md). The example below also includes the custom types required for the rest of this example.
+:::
 
 ```typescript
 // TypeScript Users only add this code
@@ -152,5 +154,7 @@ const App = () => {
 ```
 
 There you have it!
+
+Test content&#x20;
 
 That's the most basic example of Slate. If you render that onto the page, you should see a paragraph with the text `A line of text in a paragraph.` And when you type, you should see the text change!
