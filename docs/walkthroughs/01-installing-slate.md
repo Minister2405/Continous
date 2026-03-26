@@ -154,3 +154,5 @@ const App = () => {
 There you have it!
 
 That's the most basic example of Slate. If you render that onto the page, you should see a paragraph with the text `A line of text in a paragraph.` And when you type, you should see the text change!
+**Updated by Shakeer
+Test entry for GitHub x Document360 webinar
